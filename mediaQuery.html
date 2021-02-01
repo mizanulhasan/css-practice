@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid lightgray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            .container .food{
+                background-color: rosybrown;
+            }
+        }
+        @media (min-width: 1200px){
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem pariatur molestias numquam, quisquam ullam omnis optio! Rerum harum consequuntur nesciunt dolorem earum pariatur, rem velit similique minima distinctio hic quisquam voluptate quam error iste reiciendis optio? Dolorem, eum ipsum!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Hic unde deserunt quidem reprehenderit aut exercitationem doloremque qui. Commodi, explicabo. Adipisci temporibus architecto, nam dolore cupiditate rerum enim sequi, quo cum corporis, nisi quasi voluptates! Blanditiis molestias, minima ratione autem eaque eveniet eligendi cum. Alias impedit odio vero explicabo?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Harum officia accusamus ad distinctio, impedit nostrum aperiam adipisci animi. Consequatur veniam quaerat ea illum deserunt maiores aspernatur dolores amet quo laboriosam fuga, provident ipsum quibusdam itaque aliquam magni ipsa, assumenda tempora natus, quas architecto est! Corporis, totam! Amet, harum.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Tempora eos incidunt dolorum est, modi quasi deleniti ullam magni consequuntur pariatur necessitatibus culpa similique tenetur ipsum, ducimus beatae animi sapiente sequi rerum repellendus deserunt iusto suscipit eligendi perferendis? Animi voluptatum dicta ad mollitia, in veritatis provident vitae enim reiciendis.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Fugit, alias! Minus consectetur suscipit nobis sed illo, iste, corporis quisquam, fugit autem vel et culpa. Voluptate, quia unde libero itaque officiis eaque dolore, id magni assumenda voluptatum voluptatem numquam exercitationem est maxime minima eius, amet mollitia nostrum aperiam! A?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Officiis ab tenetur aperiam expedita aut quam quas odio blanditiis animi magnam asperiores, reiciendis dolore, ipsum quasi ipsam, a voluptates? Incidunt dolore iusto eaque laborum commodi aspernatur neque iste porro, vel unde esse harum eum, et beatae. Odit, delectus quasi.</p>
+        </div>
+    </div>
+</body>
+</html>
