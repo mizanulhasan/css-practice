@@ -13,10 +13,12 @@
         .photo-frame{
             width: 300px;
             height: 200px;
-            border: 5px solid greenyellow;
+            border: 5px solid rgb(172, 255, 47);
             border-radius: 10px;
             position: relative;
             margin: 10px;
+            overflow: hidden;
+
         }
         .photo-frame .photo img{
             width: 100%;
@@ -31,7 +33,7 @@
         }
         .photo-frame:hover .photo-detail{
             display: block;
-            background-color: rgb(187, 149, 53);
+            background-color: rgba(187, 149, 53, 0.411);
         }
         .photo-frame:hover .photo-detail h3{
             color: white;
@@ -40,6 +42,11 @@
         }
         .photo-frame:hover .photo-detail p{
             color: aliceblue;
+            padding: 4px;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 2s;
         }
     </style>
 </head>
